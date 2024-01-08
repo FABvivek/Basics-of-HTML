@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* unvisited link */
+        .container:link {
+            color: #FF0000;
+        }
+
+        /* visited link */
+        .container:visited {
+            color: #00FF00;
+        }
+
+        /* mouse over link */
+        .container:hover {
+            color: #FF00FF;
+        }
+
+        /* selected link */
+        .container:active {
+            color: #0000FF;
+        }
+
+        .c1{
+            display: none;
+            background-color: yellow;
+            padding: 20px;
+        }
+
+        .cnt2:hover .c1 {
+            display: block;
+        }
+        ul li:first-child{
+            background-color: #FF00FF;
+        }
+        ul li:nth-child(2n+3){
+            background-color: #00FF00;
+        }
+        p::first-line{
+            background-color: aqua;
+        }
+        ::selection{
+            color:#9519a9;
+            background-color: rgb(55, 52, 137);
+        }
+    </style>
+</head>
+<body>
+    <a class="container" href="./flexbox.html" >Hi folks welcome to spark</a>
+    <div class="cnt2"> Hey Whats up<p class="c1">Hi</p></div>
+    <ul>
+        <li>type 1</li>
+        <li>type 2</li>
+        <li>type 3</li>
+        <li>type 4</li>
+        <li>type 5</li>
+        <li>type 6</li>
+    </ul>
+    <h2>Hy Whats up, Uraa OSS</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolore iure distinctio eveniet illo enim esse quaerat.</p>
+</body>
+</html>

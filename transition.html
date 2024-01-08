@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+            .cr1{
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                border-radius: 999px;
+                /* transition-property: "background-color";
+                transition-duration: 1s;
+                transition-timing-function: ease;  */
+                animation-name: exam;
+                animation-duration: 4s;
+
+            }
+            .cr2{
+                width: 100px;
+                height: 100px;
+                background-color: green;
+                border-radius: 999px;
+                /* transition-property: "background-color";
+                transition-duration: 1s;
+                transition-delay: 50mss; */
+                animation-name: exam;
+                animation-duration: 3s;
+            }
+            .cr1:hover{
+                border-radius: 999px;
+                background-color: pink;
+                transform: scale(2);
+            }
+            .cr2:hover{
+                border-radius: 999px;
+                background-color: blue;
+                transform: scale(2);
+            }
+            @keyframes exam{
+                0%{
+                    transform: translateX(0px);
+                }
+                100%{
+                    transform: translateX(500px);
+                }
+            }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <div class=""bg>
+            <div class="cr1"></div>
+            <div class="cr2"></div>
+            <div class="cr3"></div>
+
+    </div>
+</body>
+</html>
